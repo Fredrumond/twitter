@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
 });
 
 
-app.listen(3333, function () {
+app.listen(proess.env.PORT || 3333, function () {
     console.log('Aplicaçao rodando.');
   });
